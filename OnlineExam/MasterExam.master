@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterExam.master.cs" Inherits="MasterExam" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 47px;
+        }
+        .newStyle18 {
+            font-family: Arial;
+        }
+        * {
+	border:none
+}
+        .newStyle20 {
+            text-align: center;
+        }
+        .newStyle21 {
+            font-family: Arial;
+            color: #CC0000;
+        }
+    </style>
+</head>
+<body style="width:100%; background-image: url('/images/1New.jpg'); background-size:cover; height: 371px">
+    <form id="form1" runat="server">
+    <div>
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/images/bg_topexam.jpg" height="105%" Width="100%"/>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <table class="auto-style1">
+            <tr>
+                <td><span class="newStyle18">Copyright © Online Examination.</span></td>
+                <td class="newStyle20"><span class="newStyle21">Design and Maintained by My Chhota Family.</span></td>
+                <td class="newStyle20"><span class="newStyle18"><span class="newStyle19">All Rights Reserved.</span></span></td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
